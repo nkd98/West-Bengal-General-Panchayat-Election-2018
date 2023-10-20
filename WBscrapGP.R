@@ -66,7 +66,7 @@ Sys.sleep(4)
 
 
 # Iterate over districts
-for (k in 13:list_district_length){
+for (k in 2:list_district_length){
   
   #click corresponding zilla
   remDr$findElement(using = "css", value = "#ContentPlaceHolder1_cmbZillaParisadName" )$clickElement() 
